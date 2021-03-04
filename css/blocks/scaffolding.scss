@@ -1,0 +1,44 @@
+@font-face {
+  font-weight: 600;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  src: url("../../fonts/ProximaNova-Regular.woff") format("woff"), url("../../fonts/ProximaNova-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  src: url("../../fonts/ProximaNova-Bold.woff") format("woff"), url("../../fonts/ProximaNova-Bold.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+body {
+    margin: 10px;
+    padding: 0;
+
+    line-height: 29px;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@import url('blocks/variables.sccs');
