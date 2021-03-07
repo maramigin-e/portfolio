@@ -29,16 +29,27 @@
   }
 
 body {
-    margin: 10px;
+    margin: 0px;
     padding: 0;
 
     line-height: 29px;
     font-family: "Proxima Nova", Arial, sans-serif;
+
+    color: rgba(255,255,255,.9);
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+ul li {
+    list-style:none;
+}
+
+a {
+    color: rgba(255,255,255,.9);
+    text-decoration: none;
 }
 
 @import url('blocks/variables.sccs');
