@@ -35,3 +35,9 @@
     padding-top: 60px;
     padding-left: 75px;
 }
+
+@media (max-width: 1000px) {
+    .page-main {
+        width: 1200px;
+    }
+}

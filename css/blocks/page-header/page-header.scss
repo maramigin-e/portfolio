@@ -10,6 +10,12 @@
 
     height: 900px;
 }
+@media (max-width: 1000px) {
+    .page-header {
+        width: 1200px;
+    }
+
+}
 
 .page-header__logo {
     margin-top: 10px;
@@ -20,6 +26,14 @@
     width: 1150px;
     margin: 0;
 }
+
+@media (max-width: 1000px) {
+    .main-nav {
+        width: 950px;
+    }
+
+}
+
 
 .main-nav__wrapper {
     display: flex;
@@ -58,6 +72,8 @@
 .social-list__item {
     margin-left: 15px;
 }
+
+
 
 @media screen and(min-width: 1920px) {
     .page-header {
